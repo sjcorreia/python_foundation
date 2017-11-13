@@ -13,3 +13,5 @@ while(break_count < total_breaks):
                 # webbrowser.open("https://www.youtube.com/watch?v=DHkbhQC1hDc&t=630s")
                 print("Take a break!!")
                 break_count += 1
+
+print(__module__)
