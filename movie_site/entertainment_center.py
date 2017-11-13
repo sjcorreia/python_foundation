@@ -33,6 +33,8 @@ the_other_guys = media.Movie("The Other Guys", "A different kind of buddy cop mo
 # print(ghostbusters.storyline)
 # print(the_last_jedi.storyline)
 # the_last_jedi.show_trailer()
+# print(media.Movie.VALID_RATINGS)
+# print(media.Movie.__doc__)
 
 movies = [ghostbusters, the_last_jedi, raiders_of_the_lost_ark, back_to_the_future, the_dark_knight, the_other_guys]
 fresh_tomatoes.open_movies_page(movies)
