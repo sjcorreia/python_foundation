@@ -2,6 +2,7 @@ from __future__ import print_function
 import media
 import fresh_tomatoes
 
+# TODO: Store all of the movie information in a json file and read from that file
 ghostbusters = media.Movie("Ghostbusters", "Scientists save the world from the Paranormal, Who you gonna call?",
     "https://upload.wikimedia.org/wikipedia/en/2/2f/Ghostbusters_%281984%29_theatrical_poster.png",
     "https://www.youtube.com/watch?v=EQCCPP8aZBY")
