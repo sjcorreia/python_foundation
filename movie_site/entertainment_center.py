@@ -4,7 +4,7 @@ import fresh_tomatoes
 
 ghostbusters = media.Movie("Ghostbusters", "Scientists save the world from the Paranormal, Who you gonna call?",
     "https://upload.wikimedia.org/wikipedia/en/2/2f/Ghostbusters_%281984%29_theatrical_poster.png",
-    "https://www.youtube.com/watch?v=vntAEVjPBzQ")
+    "https://www.youtube.com/watch?v=EQCCPP8aZBY")
 
 the_last_jedi = media.Movie("Star Wars: The Last Jedi", "Rey continues her journey in connection with the Force",
     "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg",
@@ -36,5 +36,5 @@ the_other_guys = media.Movie("The Other Guys", "A different kind of buddy cop mo
 # print(media.Movie.VALID_RATINGS)
 # print(media.Movie.__doc__)
 
-movies = [ghostbusters, the_last_jedi, raiders_of_the_lost_ark, the_dark_knight, the_other_guys, casino_royale]
+movies = [ghostbusters, the_last_jedi, raiders_of_the_lost_ark, back_to_the_future, the_dark_knight, the_other_guys]
 fresh_tomatoes.open_movies_page(movies)
