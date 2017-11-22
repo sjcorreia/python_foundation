@@ -5,13 +5,16 @@ with open('json/person.json') as json_data:
     # Reading from a JSON file into a python dict
     data = json.load(json_data)
     # It is important to know the structure of the data
+    
     print(data["firstName"])
     print(data["address"]["streetAddress"])
 
-    for key in data:
-        print(key)
+with open('json/people.json') as json_data_people:
+    # Reading from a JSON file into a python dict, or list of dicts
+    data_people = json.load(json_data_people)
+    # It is important to know the structure of the data
 
-    print("=====")
+    for person in data_people:
+        print(person["firstName"])
+        print(person["address"]["streetAddress"])
 
-    for key in data:
-        print(data[key])
