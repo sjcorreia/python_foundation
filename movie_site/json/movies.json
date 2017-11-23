@@ -1,0 +1,15 @@
+[
+  {
+    "movieTitle": "Ghostbusters",
+    "summary": "Scientists save the world from the Paranormal, Who you gonna call?",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/2/2f/Ghostbusters_%281984%29_theatrical_poster.png",
+    "trailerLink": "https://www.youtube.com/watch?v=EQCCPP8aZBY"
+  },
+  {
+    "movieTitle": "Star Wars: The Last Jedi",
+    "summary": "Rey continues her journey in connection with the Force",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+  }
+]
+    
