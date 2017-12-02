@@ -10,6 +10,47 @@
     "summary": "Rey continues her journey in connection with the Force",
     "posterLink": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg",
     "trailerLink": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+  },
+  {
+    "movieTitle": "Raiders of the Lost Ark",
+    "summary": "Dr. Jones battles some Nazis to recover the Ark of the Convenant",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/4/4c/Raiders_of_the_Lost_Ark.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=XkkzKHCx154"
+  },
+  {
+    "movieTitle": "Back to the Future",
+    "summary": "A son helps his father impress his mother",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=qvsgGtivCgs"
+  },
+  {
+    "movieTitle": "The Dark Knight",
+    "summary": "Batman meets the Joker",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+  },
+  {
+    "movieTitle": "The Other Guys",
+    "summary": "A different kind of buddy cop movie",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/6/6b/Other_guys_poster.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=D6WOoUG1eNo"
+  },
+  {
+    "movieTitle": "Jumanji",
+    "summary": "Roll the dice, if you dare!",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/b/b6/Jumanji_poster.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=5p18zqZmeiI"
+  },
+  {
+    "movieTitle": "Young Frankenstein",
+    "summary": "The classic story retold by Mel Brooks",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/b/b5/Young_Frankenstein_movie_poster.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=ZL9Q_0JtMNA"
+  },
+  {
+    "movieTitle": "Jurassic Park",
+    "summary": "An Adventure 65 Million years in the making.",
+    "posterLink": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+    "trailerLink": "https://www.youtube.com/watch?v=lc0UehYemQA"
   }
 ]
-    

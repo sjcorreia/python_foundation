@@ -1,6 +1,7 @@
 from __future__ import print_function
 import media
 import fresh_tomatoes
+import json
 
 # TODO: Store all of the movie information in a json file and read from that file
 ghostbusters = media.Movie("Ghostbusters", "Scientists save the world from the Paranormal, Who you gonna call?",
@@ -37,5 +38,20 @@ the_other_guys = media.Movie("The Other Guys", "A different kind of buddy cop mo
 # print(media.Movie.VALID_RATINGS)
 # print(media.Movie.__doc__)
 
+moviesList = []
+
+with open('json/movies.json') as json_data_movies:
+    # Reading from a JSON file into a python dict, or list of dicts
+    data_movies = json.load(json_data_movies)
+    # It is important to know the structure of the data
+
+    for movie in data_movies:
+        # print(movie["movieTitle"])
+        moviesList.append(media.Movie(movie["movieTitle"],
+            movie["summary"], movie["posterLink"], movie["trailerLink"]))
+        # print(person["address"]["streetAddress"])
+
+# print(moviesList)
+
 movies = [ghostbusters, the_last_jedi, raiders_of_the_lost_ark, back_to_the_future, the_dark_knight, the_other_guys]
-fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(moviesList)

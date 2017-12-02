@@ -9,6 +9,8 @@ with open('json/person.json') as json_data:
     print(data["firstName"])
     print(data["address"]["streetAddress"])
 
+peopleList = []
+
 with open('json/people.json') as json_data_people:
     # Reading from a JSON file into a python dict, or list of dicts
     data_people = json.load(json_data_people)
@@ -16,5 +18,7 @@ with open('json/people.json') as json_data_people:
 
     for person in data_people:
         print(person["firstName"])
-        print(person["address"]["streetAddress"])
+        peopleList.append(person["firstName"])
+        # print(person["address"]["streetAddress"])
 
+print(peopleList)
