@@ -1,4 +1,4 @@
-[
+{"people":[
   {
     "firstName": "John",
     "lastName": "Smith",
@@ -56,3 +56,4 @@
     "spouse": null
   }
 ]
+}

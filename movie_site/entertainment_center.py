@@ -12,7 +12,7 @@ with open('json/movies.json') as json_data_movies:
     # https://www.json.org/
     data_movies = json.load(json_data_movies)
 
-    for movie in data_movies:
+    for movie in data_movies["favoriteMovies"]:
         moviesList.append(media.Movie(movie["movieTitle"],
                                       movie["summary"],
                                       movie["posterLink"],
